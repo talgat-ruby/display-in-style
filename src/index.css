@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+nav {
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+    height: 40px;
+}
+
+
+table { 
+        width: 80%; 
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    /* Zebra striping */
+tr:nth-of-type(odd) { 
+    background: #C9C9C9; 
+}
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+td, th {
+    min-width: 25%;
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
